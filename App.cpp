@@ -10,7 +10,6 @@ void partition(std::vector<int>& v, int low, int high, int pivot)
 		if (v.at(j) == pivot)
 		{
 			std::swap(v.at(j), v.at(temp));
-			//j++;
 			temp++;
 		}
 		if (v.at(j) < pivot)
